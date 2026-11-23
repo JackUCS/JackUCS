@@ -41,6 +41,8 @@ defensive-security cyber range.
 ![Suricata](https://img.shields.io/badge/Suricata-00A98F?style=for-the-badge&logo=suricata&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
@@ -89,12 +91,14 @@ A self-hosted link-in-bio profile builder: 16 themes, 4 layouts, 12 custom curso
 11 animated username effects, 7 canvas particle effects, background audio with an
 upload library, a media host and real analytics — every profile on its own URL.
 
-Express 5 with PostgreSQL, JWT + bcrypt auth, presigned S3 uploads, and a Playwright
-end-to-end suite covering the whole build.
+Express 5 with PostgreSQL on **Supabase**, JWT + bcrypt auth, and direct-to-**Cloudflare R2**
+uploads via presigned URLs — the 25 MB file never touches the server, and storage stays
+cheap and durable when the app's own filesystem is ephemeral. A Playwright suite covers
+the build end to end, including a real-browser upload test against R2.
 
 [**lnkd.lol →**](https://lnkd.lol)
 
-`JavaScript` · `Express` · `PostgreSQL` · `JWT` · `S3` · `Playwright`
+`JavaScript` · `Express` · `PostgreSQL` · `Supabase` · `Cloudflare R2` · `JWT` · `Playwright`
 
 ### LocalLink — service-booking marketplace
 > 🔒 Private repository — design workup is [public here](https://github.com/JackUCS/LocalLink)
