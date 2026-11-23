@@ -1,4 +1,4 @@
-<div align="center">
+q<div align="center">
 
 <img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
 
@@ -116,21 +116,21 @@ Playwright layout/regression harness guarding the shared navbar and form styling
 
 `JavaScript` · `CSS` · `Playwright` · `UX`
 
-### [dhgVAULT](https://github.com/JackUCS/dhgVAULT) — affiliate storefront platform
+### [dhgVAULT](https://github.com/JackUCS/dhgVAULT) — Affiliate storefront platform
 Express 5 backend with an authenticated admin panel, wishlist system, sharp-based
 image pipeline, and an esbuild build step minifying every asset. Includes security
 headers, request-IP tracking, and SEO files.
 
 `JavaScript` · `Express` · `Node` · `sharp` · `esbuild`
 
-### [Digital-CV](https://github.com/JackUCS/Digital-CV) — interactive CV & coursework journal
-Not a PDF — a live site with light/dark theming, a cursor spotlight, animated grid
-background, and dedicated modules and reflective-journal sections.
+### [Digital-CV](https://github.com/JackUCS/Digital-CV) — Interactive CV & coursework journal
+A live site with light/dark theming, a cursor spotlight, animated grid
+background, and dedicated modules and reflective-journal sections. - Updated yearly.
 [View the PDF →](https://github.com/JackUCS/Digital-CV/blob/main/JackJefferyCV.pdf)
 
 `HTML` · `CSS` · `JavaScript`
 
-### [Roblox-Monitoring-Final](https://github.com/JackUCS/Roblox-Monitoring-Final) — automated monitor & alerter
+### [Roblox-Monitoring-Final](https://github.com/JackUCS/Roblox-Monitoring-Final) — Automated monitor & alerter works in conjunction with [PublicInterface]
 Python service polling game servers via `aiohttp`, persisting state to MySQL, and
 pushing webhook alerts. Deployed on Railway with environment-based config.
 
