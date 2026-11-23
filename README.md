@@ -85,6 +85,14 @@ with it.
 ### linkd — live at [lnkd.lol](https://lnkd.lol)
 > 🔒 Private repository — running in production
 
+<div align="center">
+
+<a href="https://lnkd.lol"><img src="assets/lnkd-showcase.png" alt="linkd — homepage, creator dashboard and a live profile" width="100%" /></a>
+
+<sub><b>Homepage</b> · <b>Creator dashboard</b> — 16 themes, analytics, direct-to-R2 uploads · <b>A live profile</b></sub>
+
+</div>
+
 A self-hosted link-in-bio profile builder: 16 themes, 4 layouts, 12 custom cursors,
 11 animated username effects, 7 canvas particle effects, background audio with an
 upload library, a media host and real analytics — every profile on its own URL.
