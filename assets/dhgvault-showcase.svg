@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="DHGateVault — curated men's fashion spreadsheet, product grid in dark and light themes">
+  <title>DHGateVault — curated men's fashion spreadsheet</title>
+
+  <defs>
+    <linearGradient id="vBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06060b"/>
+      <stop offset="55%" stop-color="#0b0b16"/>
+      <stop offset="100%" stop-color="#08080f"/>
+    </linearGradient>
+    <linearGradient id="vAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="vBtn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="vName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f0f0f5"/>
+      <stop offset="55%" stop-color="#c7c9f5"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="vGrid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#f0f0f5" stroke-opacity="0.028" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vGlowL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vGlowR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="vSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="vShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- product photo placeholders, matching the site's muted garment tones -->
+    <linearGradient id="vP1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9eaee"/><stop offset="100%" stop-color="#c9ccd6"/>
+    </linearGradient>
+    <linearGradient id="vP2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2d38"/><stop offset="100%" stop-color="#14161d"/>
+    </linearGradient>
+    <linearGradient id="vP3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#232a3c"/><stop offset="100%" stop-color="#12161f"/>
+    </linearGradient>
+    <linearGradient id="vP4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2f2f4"/><stop offset="100%" stop-color="#d5d6dc"/>
+    </linearGradient>
+    <clipPath id="vWin1"><rect x="46" y="130" width="540" height="240" rx="14"/></clipPath>
+    <clipPath id="vWin2"><rect x="614" y="130" width="540" height="240" rx="14"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#vBg)"/>
+  <rect width="1200" height="420" fill="url(#vGrid)"/>
+  <ellipse cx="260" cy="70" rx="360" ry="220" fill="url(#vGlowL)" filter="url(#vSoft)"/>
+  <ellipse cx="1000" cy="360" rx="320" ry="200" fill="url(#vGlowR)" filter="url(#vSoft)"/>
+
+  <!-- headline -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="48" y="60" font-size="13" font-weight="700" letter-spacing="2.6" fill="#38bdf8">LIVE · AFFILIATE STOREFRONT · EXPRESS 5</text>
+    <text x="46" y="104" font-size="34" font-weight="800" fill="url(#vName)" letter-spacing="-0.6">DHGateVault <tspan fill="#b0b0c0" font-weight="600" font-size="25">— curated men's fashion</tspan></text>
+  </g>
+
+  <!-- ============ Screen 1 — dark hero ============ -->
+  <g filter="url(#vShadow)">
+    <rect x="46" y="130" width="540" height="240" rx="14" fill="#06060b"/>
+    <g clip-path="url(#vWin1)">
+      <circle cx="200" cy="150" r="130" fill="#818cf8" opacity="0.14" filter="url(#vSoft)"/>
+
+      <!-- navbar -->
+      <rect x="66" y="144" width="500" height="26" rx="9" fill="#0d0d18" stroke="#1c1c2e"/>
+      <path d="M88 150.5l3.6 1.5v4c0 2.6-1.6 4-3.6 4.7-2-.7-3.6-2.1-3.6-4.7v-4z" fill="#a78bfa"/>
+      <path d="M86.8 155.6l1.4 1.4 2.5-2.6" fill="none" stroke="#0d0d18" stroke-width="0.9" stroke-linecap="round"/>
+      <text x="96" y="162" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="800" fill="#f0f0f5">DHGate<tspan fill="#a78bfa">Vault</tspan></text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" fill="#b0b0c0">
+        <rect x="360" y="149" width="46" height="15" rx="7.5" fill="#14141f" stroke="#22223a"/><text x="369" y="159">Disclaimer</text>
+        <rect x="412" y="149" width="38" height="15" rx="7.5" fill="#14141f" stroke="#22223a"/><text x="422" y="159">Privacy</text>
+        <rect x="456" y="149" width="34" height="15" rx="7.5" fill="#14141f" stroke="#22223a"/><text x="462" y="159" fill="#f0f0f5">GBP £</text>
+      </g>
+      <circle cx="504" cy="156.5" r="8" fill="#14141f" stroke="#22223a"/>
+      <circle cx="504" cy="157.5" r="2.8" fill="none" stroke="#a78bfa" stroke-width="1.1"/>
+      <circle cx="548" cy="156.5" r="8" fill="#14141f" stroke="#22223a"/>
+      <circle cx="548" cy="156.5" r="2.6" fill="none" stroke="#818cf8" stroke-width="1"/>
+
+      <!-- hero pill -->
+      <rect x="222" y="180" width="112" height="15" rx="7.5" fill="#818cf8" fill-opacity="0.13" stroke="#818cf8" stroke-opacity="0.55"/>
+      <text x="278" y="190.5" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="700" letter-spacing="1.1" fill="#c7c9f5">MALE FASHION COMMUNITY</text>
+
+      <!-- headline -->
+      <text x="278" y="212" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="800" fill="#f0f0f5">Unlock the Best</text>
+      <text x="278" y="232" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="800" fill="#a5b4fc">DHGate Grails</text>
+      <text x="278" y="246" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" fill="#b0b0c0">In-hand reviews and unedited photos of top-tier designer pieces.</text>
+
+      <!-- filters -->
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2">
+        <rect x="104" y="256" width="24" height="14" rx="7" fill="#818cf8" fill-opacity="0.9"/><text x="112" y="265.5" fill="#0b0b16" font-weight="700">All</text>
+        <rect x="132" y="256" width="30" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="139" y="265.5" fill="#b0b0c0">Shirts</text>
+        <rect x="166" y="256" width="30" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="173" y="265.5" fill="#b0b0c0">Pants</text>
+        <rect x="200" y="256" width="34" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="207" y="265.5" fill="#b0b0c0">Joggers</text>
+        <rect x="238" y="256" width="30" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="245" y="265.5" fill="#b0b0c0">Shoes</text>
+        <rect x="272" y="256" width="30" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="279" y="265.5" fill="#b0b0c0">Slides</text>
+        <rect x="306" y="256" width="32" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="312" y="265.5" fill="#b0b0c0">Chains</text>
+        <rect x="342" y="256" width="46" height="14" rx="7" fill="#0d0d18" stroke="#22223a"/><text x="348" y="265.5" fill="#b0b0c0">Accessories</text>
+      </g>
+
+      <!-- product cards row -->
+      <g>
+        <!-- card 1 -->
+        <rect x="68" y="280" width="122" height="82" rx="9" fill="#0d0d18" stroke="#1c1c2e"/>
+        <rect x="68" y="280" width="122" height="48" rx="9" fill="url(#vP1)"/>
+        <rect x="68" y="318" width="122" height="10" fill="url(#vP1)"/>
+        <rect x="74" y="285" width="30" height="9" rx="4.5" fill="#fbbf24" fill-opacity="0.92"/>
+        <text x="79" y="291.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.6" font-weight="800" fill="#1a1400">DHGate</text>
+        <text x="76" y="343" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#f0f0f5">Nike Sock x5</text>
+        <text x="76" y="351" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#6b6b80">Nike</text>
+        <text x="76" y="357" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#fbbf24">£9.16</text>
+
+        <!-- card 2 -->
+        <rect x="198" y="280" width="122" height="82" rx="9" fill="#0d0d18" stroke="#1c1c2e"/>
+        <rect x="198" y="280" width="122" height="48" rx="9" fill="url(#vP2)"/>
+        <rect x="198" y="318" width="122" height="10" fill="url(#vP2)"/>
+        <rect x="204" y="285" width="30" height="9" rx="4.5" fill="#fbbf24" fill-opacity="0.92"/>
+        <text x="209" y="291.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.6" font-weight="800" fill="#1a1400">DHGate</text>
+        <text x="206" y="343" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#f0f0f5">Supreme Track Jacket</text>
+        <text x="206" y="351" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#6b6b80">Supreme</text>
+        <text x="206" y="357" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#fbbf24">£52.07</text>
+
+        <!-- card 3 -->
+        <rect x="328" y="280" width="122" height="82" rx="9" fill="#0d0d18" stroke="#1c1c2e"/>
+        <rect x="328" y="280" width="122" height="48" rx="9" fill="url(#vP3)"/>
+        <rect x="328" y="318" width="122" height="10" fill="url(#vP3)"/>
+        <rect x="334" y="285" width="30" height="9" rx="4.5" fill="#fbbf24" fill-opacity="0.92"/>
+        <text x="339" y="291.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.6" font-weight="800" fill="#1a1400">DHGate</text>
+        <text x="336" y="343" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#f0f0f5">Satoshi Tee</text>
+        <text x="336" y="351" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#6b6b80">Satoshi Nakamoto</text>
+        <text x="336" y="357" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#fbbf24">£22.35</text>
+
+        <!-- card 4 -->
+        <rect x="458" y="280" width="122" height="82" rx="9" fill="#0d0d18" stroke="#1c1c2e"/>
+        <rect x="458" y="280" width="122" height="48" rx="9" fill="url(#vP4)"/>
+        <rect x="458" y="318" width="122" height="10" fill="url(#vP4)"/>
+        <rect x="464" y="285" width="30" height="9" rx="4.5" fill="#fbbf24" fill-opacity="0.92"/>
+        <text x="469" y="291.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.6" font-weight="800" fill="#1a1400">DHGate</text>
+        <text x="466" y="343" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#f0f0f5">Rodman Tee — Pink</text>
+        <text x="466" y="351" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#6b6b80">Hellstar</text>
+        <text x="466" y="357" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#fbbf24">£19.49</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ Screen 2 — light theme grid ============ -->
+  <g filter="url(#vShadow)">
+    <rect x="614" y="130" width="540" height="240" rx="14" fill="#e6ebf8"/>
+    <g clip-path="url(#vWin2)">
+      <!-- navbar -->
+      <rect x="634" y="144" width="500" height="26" rx="9" fill="#ffffff" stroke="#d5dcef"/>
+      <path d="M656 150.5l3.6 1.5v4c0 2.6-1.6 4-3.6 4.7-2-.7-3.6-2.1-3.6-4.7v-4z" fill="#6c7ae0"/>
+      <path d="M654.8 155.6l1.4 1.4 2.5-2.6" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round"/>
+      <text x="664" y="162" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="800" fill="#1f2035">DHGate<tspan fill="#6c7ae0">Vault</tspan></text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" fill="#4a4a68">
+        <rect x="928" y="149" width="46" height="15" rx="7.5" fill="#eef1fb" stroke="#d5dcef"/><text x="937" y="159">Disclaimer</text>
+        <rect x="980" y="149" width="38" height="15" rx="7.5" fill="#eef1fb" stroke="#d5dcef"/><text x="990" y="159">Privacy</text>
+        <rect x="1024" y="149" width="34" height="15" rx="7.5" fill="#eef1fb" stroke="#d5dcef"/><text x="1030" y="159" fill="#1f2035">GBP £</text>
+      </g>
+      <circle cx="1072" cy="156.5" r="8" fill="#eef1fb" stroke="#d5dcef"/>
+      <circle cx="1072" cy="156.5" r="2.6" fill="none" stroke="#6c7ae0" stroke-width="1"/>
+
+      <text x="634" y="196" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="800" fill="#1f2035">All products <tspan fill="#6f6f8a" font-weight="600" font-size="8">— 42 curated</tspan></text>
+
+      <!-- 3x2 grid of light product cards -->
+      <g>
+        <!-- row 1 -->
+        <rect x="634" y="206" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="634" y="206" width="118" height="42" rx="8" fill="url(#vP4)"/>
+        <rect x="634" y="240" width="118" height="8" fill="url(#vP4)"/>
+        <text x="642" y="264" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Nike Sock x5</text>
+        <text x="642" y="273" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£9.16</text>
+
+        <rect x="760" y="206" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="760" y="206" width="118" height="42" rx="8" fill="url(#vP2)"/>
+        <rect x="760" y="240" width="118" height="8" fill="url(#vP2)"/>
+        <text x="768" y="264" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Supreme Jacket</text>
+        <text x="768" y="273" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£52.07</text>
+
+        <rect x="886" y="206" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="886" y="206" width="118" height="42" rx="8" fill="url(#vP3)"/>
+        <rect x="886" y="240" width="118" height="8" fill="url(#vP3)"/>
+        <text x="894" y="264" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Satoshi Tee</text>
+        <text x="894" y="273" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£22.35</text>
+
+        <rect x="1012" y="206" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="1012" y="206" width="118" height="42" rx="8" fill="url(#vP1)"/>
+        <rect x="1012" y="240" width="118" height="8" fill="url(#vP1)"/>
+        <text x="1020" y="264" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Rodman Tee</text>
+        <text x="1020" y="273" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£19.49</text>
+
+        <!-- row 2 -->
+        <rect x="634" y="286" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="634" y="286" width="118" height="42" rx="8" fill="url(#vP1)"/>
+        <rect x="634" y="320" width="118" height="8" fill="url(#vP1)"/>
+        <text x="642" y="344" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">AJ1 Reverse Mocha</text>
+        <text x="642" y="353" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£64.80</text>
+
+        <rect x="760" y="286" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="760" y="286" width="118" height="42" rx="8" fill="url(#vP3)"/>
+        <rect x="760" y="320" width="118" height="8" fill="url(#vP3)"/>
+        <text x="768" y="344" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Chrome Hearts Chain</text>
+        <text x="768" y="353" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£31.20</text>
+
+        <rect x="886" y="286" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="886" y="286" width="118" height="42" rx="8" fill="url(#vP2)"/>
+        <rect x="886" y="320" width="118" height="8" fill="url(#vP2)"/>
+        <text x="894" y="344" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Essentials Joggers</text>
+        <text x="894" y="353" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£27.90</text>
+
+        <rect x="1012" y="286" width="118" height="72" rx="8" fill="#ffffff" stroke="#d5dcef"/>
+        <rect x="1012" y="286" width="118" height="42" rx="8" fill="url(#vP4)"/>
+        <rect x="1012" y="320" width="118" height="8" fill="url(#vP4)"/>
+        <text x="1020" y="344" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1f2035">Yeezy Slide</text>
+        <text x="1020" y="353" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="800" fill="#d97706">£18.75</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- footer caption -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7a7a90">
+    <text x="48" y="404">
+      affiliate storefront <tspan fill="#818cf8">·</tspan> live product reviews + unedited photos <tspan fill="#818cf8">·</tspan> wishlist + GBPEUR switching <tspan fill="#818cf8">·</tspan> dark and light themes
+    </text>
+  </g>
+</svg>

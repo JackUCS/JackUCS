@@ -140,17 +140,44 @@ portal that runs their diary. Not a mockup: 11 pages, three roles, 15 JS modules
 
 `JavaScript` · `CSS` · `Playwright` · `Design tokens` · `UX` · `a11y`
 
-### [dhgVAULT](https://github.com/JackUCS/dhgVAULT) — affiliate storefront platform
+### dhgVAULT — live at [dhgatevault.com](https://dhgatevault.com)
+> 🔒 Private repository — running in production
+
+<div align="center">
+
+<a href="https://dhgatevault.com"><img src="assets/dhgvault-showcase.svg" alt="dhgVAULT — curated men's fashion storefront, product grid in dark and light themes" width="100%" /></a>
+
+<sub><b>Curated storefront</b> — category filters, live prices, wishlist · <b>Dark + light themes</b> — glass surfaces, per-product reviews</sub>
+
+</div>
+
+An affiliate storefront for curated men's fashion: in-hand reviews and unedited photos
+of designer pieces, with category filtering, a wishlist, currency switching and
+per-product photo galleries. Every listing carries a live price and a link out.
+
 Express 5 backend with an authenticated admin panel, wishlist system, sharp-based
 image pipeline, and an esbuild build step minifying every asset. Includes security
 headers, request-IP tracking, and SEO files.
 
 `JavaScript` · `Express` · `Node` · `sharp` · `esbuild`
 
-### [Digital-CV](https://github.com/JackUCS/Digital-CV) — interactive CV & coursework journal
-Not a PDF — a live site with light/dark theming, a cursor spotlight, animated grid
-background, and dedicated modules and reflective-journal sections.
-[View the PDF →](https://github.com/JackUCS/Digital-CV/blob/main/JackJefferyCV.pdf)
+### Digital-CV — live at [jackcv.xyz](https://jackcv.xyz)
+> 🔒 Source private — the site itself is public
+
+<div align="center">
+
+<a href="https://jackcv.xyz"><img src="assets/digital-cv-showcase.svg" alt="jackcv.xyz — interactive digital CV in light and dark themes" width="100%" /></a>
+
+<sub><b>CV</b> — profile, skills, education, projects · <b>Journal + Modules</b> — reflective coursework log · <b>Dark theme</b></sub>
+
+</div>
+
+Not a PDF — a live CV with light/dark theming, a cursor spotlight, animated grid
+background, and dedicated modules and reflective-journal sections. Deployed on Railway
+on its own domain, so the DNS work (CNAME, TXT verification, fixing a 502 from URL
+redirects) was part of the build, not an afterthought.
+
+[**jackcv.xyz →**](https://jackcv.xyz) · [View the PDF →](https://github.com/JackUCS/Digital-CV/blob/main/JackJefferyCV.pdf)
 
 `HTML` · `CSS` · `JavaScript`
 

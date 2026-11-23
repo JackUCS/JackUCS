@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="jackcv.xyz — interactive digital CV in light and dark themes">
+  <title>jackcv.xyz — interactive digital CV</title>
+
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2f9"/>
+      <stop offset="55%" stop-color="#e7edf8"/>
+      <stop offset="100%" stop-color="#dfe7f4"/>
+    </linearGradient>
+    <linearGradient id="cHdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a4a6e"/>
+      <stop offset="100%" stop-color="#2a6a8e"/>
+    </linearGradient>
+    <linearGradient id="cBtn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2c5f8a"/>
+      <stop offset="100%" stop-color="#4f9eff"/>
+    </linearGradient>
+    <linearGradient id="cTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#c0e0ff"/>
+      <stop offset="100%" stop-color="#7bb3e0"/>
+    </linearGradient>
+    <pattern id="cGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2c5f8a" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="cGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4f9eff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#4f9eff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="cShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#2c5f8a" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="cWin1"><rect x="46" y="130" width="540" height="240" rx="14"/></clipPath>
+    <clipPath id="cWin2"><rect x="614" y="130" width="540" height="240" rx="14"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#cBg)"/>
+  <rect width="1200" height="420" fill="url(#cGrid)"/>
+  <ellipse cx="240" cy="60" rx="340" ry="200" fill="url(#cGlow)" filter="url(#cSoft)"/>
+
+  <!-- headline -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="48" y="60" font-size="13" font-weight="700" letter-spacing="2.6" fill="#2c5f8a">LIVE · JACKCV.XYZ · OWN DOMAIN + HTTPS</text>
+    <text x="46" y="104" font-size="34" font-weight="800" fill="#1a2c3e" letter-spacing="-0.6">Digital CV <tspan fill="#4f9eff" font-weight="600" font-size="25">— not a PDF, a site</tspan></text>
+  </g>
+
+  <!-- ============ Screen 1 — light ============ -->
+  <g filter="url(#cShadow)">
+    <rect x="46" y="130" width="540" height="240" rx="14" fill="#f5f7fc"/>
+    <g clip-path="url(#cWin1)">
+      <!-- nav bar -->
+      <rect x="46" y="130" width="540" height="28" fill="#1a3a56"/>
+      <rect x="60" y="140" width="16" height="11" rx="3" fill="none" stroke="#7bb3e0" stroke-width="1.2"/>
+      <text x="68" y="148.5" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.4" font-weight="800" fill="#c0e0ff">JJ</text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" fill="#c0e0ff">
+        <text x="248" y="147.5">CV</text>
+        <text x="286" y="147.5">Journal</text>
+        <text x="342" y="147.5">Modules</text>
+        <text x="400" y="147.5">GitHub</text>
+      </g>
+      <rect x="470" y="138" width="34" height="12" rx="6" fill="#e2e9f4"/>
+      <circle cx="496" cy="144" r="4.6" fill="#ffffff"/>
+
+      <!-- header band -->
+      <rect x="46" y="158" width="540" height="46" fill="url(#cHdr)"/>
+      <text x="70" y="184" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="url(#cTitle)">Jack Jeffery</text>
+      <text x="70" y="197" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.4" fill="#dbe9f7">Computing &amp; Digital Technologies Student</text>
+      <circle cx="470" cy="181" r="18" fill="#2f6f96"/>
+      <circle cx="470" cy="175" r="6.4" fill="#bfd3e0"/>
+      <path d="M458 194a12 12 0 0 1 24 0z" fill="#bfd3e0"/>
+      <circle cx="470" cy="181" r="18" fill="none" stroke="#eaf3fb" stroke-width="1.6"/>
+
+      <!-- left column -->
+      <text x="70" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" font-weight="800" fill="#4f9eff">Profile</text>
+      <rect x="62" y="214" width="2" height="10" fill="#4f9eff"/>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" fill="#5b6e8c">
+        <text x="70" y="234">Motivated first-year Computing student with</text>
+        <text x="70" y="243">hands-on experience in front and back-end</text>
+        <text x="70" y="252">development, Data Science and Networking.</text>
+      </g>
+
+      <text x="70" y="272" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" font-weight="800" fill="#4f9eff">Technical Skills</text>
+      <rect x="62" y="264" width="2" height="10" fill="#4f9eff"/>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#33465c">
+        <rect x="70" y="280" width="20" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="76" y="288">C#</text>
+        <rect x="94" y="280" width="26" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="100" y="288">Python</text>
+        <rect x="124" y="280" width="38" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="130" y="288">HTML5/CSS3</text>
+        <rect x="166" y="280" width="40" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="172" y="288">JavaScript</text>
+        <rect x="70" y="295" width="34" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="76" y="303">Bootstrap</text>
+        <rect x="108" y="295" width="132" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="114" y="303">Pandas · NumPy · matplotlib · scikit-learn</text>
+        <rect x="70" y="310" width="16" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="76" y="318">SQL</text>
+        <rect x="90" y="310" width="52" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="96" y="318">MySQL Workbench</text>
+        <rect x="146" y="310" width="52" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="152" y="318">Railway (TXT)</text>
+        <rect x="70" y="325" width="52" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="76" y="333">Cisco Packet Tracer</text>
+        <rect x="126" y="325" width="40" height="11" rx="5.5" fill="#ffffff" stroke="#c9d8e8"/><text x="132" y="333">VLAN/OSPF</text>
+      </g>
+
+      <!-- right column -->
+      <text x="248" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" font-weight="800" fill="#4f9eff">Education</text>
+      <rect x="240" y="214" width="2" height="10" fill="#4f9eff"/>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+        <text x="248" y="236" font-size="6.4" font-weight="700" fill="#1a2c3e">BSc (Hons) Computing and Digital Technologies</text>
+        <text x="248" y="246" font-size="5.4" fill="#5b6e8c">University Centre Somerset | 2025 – 2028 (Year 1)</text>
+        <text x="248" y="256" font-size="5.4" fill="#5b6e8c">Programming · Web Development · Cyber Security · Networking</text>
+      </g>
+
+      <text x="248" y="276" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" font-weight="800" fill="#4f9eff">Independent Projects</text>
+      <rect x="240" y="268" width="2" height="10" fill="#4f9eff"/>
+
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+        <rect x="246" y="284" width="330" height="46" rx="8" fill="#ffffff" stroke="#e2ecf7"/>
+        <text x="256" y="297" font-size="6.4" font-weight="800" fill="#1a2c3e">Personal Portfolio Website &amp; Cloud Deployment</text>
+        <text x="256" y="306" font-size="5" fill="#4f9eff">HTML5, CSS3, JavaScript, Railway, Namecheap, DNS (CNAME, TXT)</text>
+        <text x="256" y="315" font-size="5.2" fill="#5b6e8c">Built a responsive, mobile-first CV from scratch — fixed a 502 caused by URL</text>
+        <text x="256" y="323" font-size="5.2" fill="#5b6e8c">redirects, then CNAME + TXT records took it live at jackcv.xyz with HTTPS.</text>
+        <rect x="256" y="327" width="46" height="12" rx="6" fill="url(#cBtn)"/>
+        <text x="266" y="335.4" font-size="5" font-weight="700" fill="#ffffff">Visit Live Site</text>
+        <rect x="306" y="327" width="42" height="12" rx="6" fill="url(#cBtn)"/>
+        <text x="314" y="335.4" font-size="5" font-weight="700" fill="#ffffff">GitHub</text>
+
+        <rect x="246" y="336" width="330" height="30" rx="8" fill="#ffffff" stroke="#e2ecf7"/>
+        <text x="256" y="349" font-size="6.4" font-weight="800" fill="#1a2c3e">Cloud MySQL Database</text>
+        <text x="256" y="358" font-size="5.2" fill="#5b6e8c">4,000+ Roblox profiles scraped into a cloud MySQL instance.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ Screen 2 — dark ============ -->
+  <g filter="url(#cShadow)">
+    <rect x="614" y="130" width="540" height="240" rx="14" fill="#0a0a0a"/>
+    <g clip-path="url(#cWin2)">
+      <rect x="614" y="130" width="540" height="240" fill="#0a0a0a"/>
+      <path d="M614 130h540" stroke="#2a3a4a"/>
+
+      <!-- container card -->
+      <rect x="632" y="142" width="504" height="216" rx="10" fill="#121923" stroke="#2a3a4a"/>
+
+      <!-- nav -->
+      <rect x="632" y="142" width="504" height="24" rx="10" fill="#0f1620"/>
+      <rect x="632" y="156" width="504" height="10" fill="#0f1620"/>
+      <rect x="644" y="150" width="14" height="10" rx="3" fill="none" stroke="#7bb3e0" stroke-width="1.1"/>
+      <text x="651" y="157.5" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5" font-weight="800" fill="#c0e0ff">JJ</text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#a0b0c0">
+        <text x="812" y="157">CV</text>
+        <text x="844" y="157">Journal</text>
+        <text x="892" y="157">Modules</text>
+        <text x="944" y="157">GitHub</text>
+      </g>
+      <rect x="1078" y="147" width="32" height="11" rx="5.5" fill="#1a1a1a" stroke="#262626"/>
+      <circle cx="1086" cy="152.5" r="4" fill="#333333"/>
+
+      <!-- header band -->
+      <rect x="632" y="166" width="504" height="42" fill="url(#cHdr)"/>
+      <text x="654" y="190" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15.5" font-weight="800" fill="url(#cTitle)">Jack Jeffery</text>
+      <text x="654" y="201.5" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.8" fill="#dbe9f7">Computing &amp; Digital Technologies Student</text>
+      <circle cx="1022" cy="187" r="16" fill="#2f6f96"/>
+      <circle cx="1022" cy="181.5" r="5.8" fill="#bfd3e0"/>
+      <path d="M1011 198.5a11 11 0 0 1 22 0z" fill="#bfd3e0"/>
+      <circle cx="1022" cy="187" r="16" fill="none" stroke="#eaf3fb" stroke-width="1.5"/>
+
+      <!-- cards -->
+      <rect x="648" y="220" width="150" height="126" rx="8" fill="#1a2a3a" stroke="#2a3a4a"/>
+      <text x="658" y="236" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e0e0e0">Achievements &amp; Certifications</text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.1" fill="#a0b0c0">
+        <circle cx="661" cy="247" r="1.6" fill="#4f9eff"/>
+        <text x="666" y="249">Website Deployment — Lighthouse 94/100</text>
+        <circle cx="661" cy="258" r="1.6" fill="#4f9eff"/>
+        <text x="666" y="260">Self-paced networking courses (netacad)</text>
+        <circle cx="661" cy="269" r="1.6" fill="#4f9eff"/>
+        <text x="666" y="271">Active GitHub contributor — 5 modules</text>
+        <circle cx="661" cy="280" r="1.6" fill="#4f9eff"/>
+        <text x="666" y="282">Discord bot — 4,000+ profiles to MySQL</text>
+      </g>
+
+      <text x="658" y="302" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e0e0e0">Links</text>
+      <rect x="658" y="308" width="62" height="14" rx="7" fill="url(#cBtn)"/>
+      <text x="689" y="317.4" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5" font-weight="700" fill="#ffffff">Download PDF</text>
+      <text x="658" y="332" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.1" fill="#a0b0c0">github.com/JackUCS</text>
+
+      <rect x="808" y="220" width="312" height="126" rx="8" fill="#1a2a3a" stroke="#2a3a4a"/>
+      <text x="820" y="236" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e0e0e0">Enterprise Network Services with Active Directory</text>
+      <text x="820" y="246" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.9" fill="#4f9eff">Windows Server · VirtualBox · DNS · DHCP · Group Policy</text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#a0b0c0">
+        <text x="820" y="258">Designed and deployed a complete corporate network on a virtual</text>
+        <text x="820" y="267">machine, transforming a standard Windows Server into a fully</text>
+        <text x="820" y="276">functional Domain Controller. Centralised user authentication and</text>
+        <text x="820" y="285">policy management for a simulated business.</text>
+      </g>
+      <rect x="820" y="296" width="72" height="14" rx="7" fill="url(#cBtn)"/>
+      <text x="856" y="305.4" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5" font-weight="700" fill="#ffffff">View Assignment</text>
+      <rect x="898" y="296" width="64" height="14" rx="7" fill="url(#cBtn)"/>
+      <text x="930" y="305.4" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5" font-weight="700" fill="#ffffff">Show Demo</text>
+
+      <text x="820" y="326" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#e0e0e0">Unicorn Badminton Club Redesign</text>
+      <text x="820" y="336" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.9" fill="#4f9eff">HTML5 · CSS3 · JavaScript · Bootstrap · Lighthouse 60 → 94</text>
+    </g>
+  </g>
+
+  <!-- footer caption -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#5b6e8c">
+    <text x="48" y="404">
+      live site, not a PDF <tspan fill="#2c5f8a">·</tspan> light / dark theming <tspan fill="#2c5f8a">·</tspan> reflective journal + modules <tspan fill="#2c5f8a">·</tspan> cursor spotlight and animated grid
+    </text>
+  </g>
+</svg>
