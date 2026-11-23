@@ -134,10 +134,6 @@ routes alerts to them, with slash-command sync on startup.
 
 `Python` · `discord.py` · `MySQL` · `Railway`
 
-### [CampusConnect-HIGH-Res-images](https://github.com/JackUCS/CampusConnect-HIGH-Res-images)
-Entity-relationship diagram and high-resolution interface mockups.
-
-`Database design` · `ERD`
 
 ---
 
