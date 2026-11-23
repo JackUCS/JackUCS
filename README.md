@@ -1,4 +1,4 @@
-q<div align="center">
+<div align="center">
 
 <img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
 
