@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
 
-I build systems end to end — the database schema, the API, the frontend, and the deploy.
+building systems end to end. the database schema, the API, the frontend, and the deploy.
 Recent work spans web platforms, Discord automation, and a self-contained
 defensive-security cyber range.
 
@@ -52,7 +52,7 @@ defensive-security cyber range.
 
 A pre-built, portable **Ubuntu 22.04 LTS defensive-analysis desktop** shipped as a
 single OVA. Designed to be handed to a student on a USB stick and used with
-**no internet, no Vagrant, and no setup steps** — boot it, log in, investigate.
+**no internet, no Vagrant, and no setup steps** boot it, log in, investigate.
 
 It bundles Suricata, Zeek and Wireshark alongside a custom interactive incident
 console and a CTFd scoreboard, then runs **six self-starting graded scenarios**
