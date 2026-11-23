@@ -2,9 +2,9 @@
 
 <img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
 
-building systems end to end. the database schema, the API, the frontend, and the deploy.
-Recent work spans web platforms, Discord automation, and a self-contained
-defensive-security cyber range.
+I build systems end to end — the database schema, the API, the frontend, and the deploy.
+Recent work spans a **local-services booking platform**, **lnkd.lol** in production,
+Discord automation, and a self-contained defensive-security cyber range.
 
 </div>
 
@@ -52,7 +52,7 @@ defensive-security cyber range.
 
 A pre-built, portable **Ubuntu 22.04 LTS defensive-analysis desktop** shipped as a
 single OVA. Designed to be handed to a student on a USB stick and used with
-**no internet, no Vagrant, and no setup steps** boot it, log in, investigate.
+**no internet, no Vagrant, and no setup steps** — boot it, log in, investigate.
 
 It bundles Suricata, Zeek and Wireshark alongside a custom interactive incident
 console and a CTFd scoreboard, then runs **six self-starting graded scenarios**
@@ -85,14 +85,6 @@ with it.
 ### linkd — live at [lnkd.lol](https://lnkd.lol)
 > 🔒 Private repository — running in production
 
-<div align="center">
-
-<a href="https://lnkd.lol"><img src="assets/lnkd-showcase.png" alt="linkd — homepage, creator dashboard and a live profile" width="100%" /></a>
-
-<sub><b>Homepage</b> · <b>Creator dashboard</b> — 16 themes, analytics, direct-to-R2 uploads · <b>A live profile</b></sub>
-
-</div>
-
 A self-hosted link-in-bio profile builder: 16 themes, 4 layouts, 12 custom cursors,
 11 animated username effects, 7 canvas particle effects, background audio with an
 upload library, a media host and real analytics — every profile on its own URL.
@@ -106,31 +98,55 @@ the build end to end, including a real-browser upload test against R2.
 
 `JavaScript` · `Express` · `PostgreSQL` · `Supabase` · `Cloudflare R2` · `JWT` · `Playwright`
 
-### LocalLink — service-booking marketplace
+### LocalLink — local services, booked instantly
 > 🔒 Private repository — design workup is [public here](https://github.com/JackUCS/LocalLink)
 
-A local-services booking platform built from the design workup up: home, search,
-service detail, customer and provider dashboards, and an admin panel. Twelve
-purpose-built JS modules behind a shared store, a full theming layer, and a
-Playwright layout/regression harness guarding the shared navbar and form styling.
+<div align="center">
 
-`JavaScript` · `CSS` · `Playwright` · `UX`
+<a href="https://github.com/JackUCS/LocalLink"><img src="assets/locallink-showcase.svg" alt="LocalLink — home page in light theme and the provider portal in dark theme" width="100%" /></a>
 
-### [dhgVAULT](https://github.com/JackUCS/dhgVAULT) — Affiliate storefront platform
+<sub><b>Homepage</b> — search by what · where · radius, live slot counts · <b>Provider portal</b> — bookings, availability grid, listing management</sub>
+
+</div>
+
+A local-services marketplace where a customer searches by **what · where · radius**,
+sees a provider's *real* availability and books a slot — and where a provider gets a
+portal that runs their diary. Not a mockup: 11 pages, three roles, 15 JS modules, zero dependencies.
+
+**What's in it**
+
+- **Three roles, three dashboards** — customers track bookings, spend and rebook in one tap;
+  providers manage bookings, availability and their public listing; admins review
+  pending applications, moderate accounts and watch platform analytics.
+- **A real slot engine** — weekly recurring availability, per-day exceptions, booked cells
+  greyed out, and next-available surfaced everywhere a provider is shown.
+- **A theming layer, not a dark mode toggle** — semantic tokens resolved before first paint,
+  so light and dark are genuinely equal citizens across every page.
+- **Search that filters for real** — category rail, price ceiling, availability and rating
+  filters, sorting, and deep links (`?category=…`).
+- **15 JS modules behind one store** — no framework, no build step, no `npm install`.
+- **Playwright harness** — navbar and `<select>` styling across 10 pages × 4 roles × 10
+  widths, plus booking-engine, booking-flow and provider-identity suites.
+
+[**Open the design workup →**](https://github.com/JackUCS/LocalLink)
+
+`JavaScript` · `CSS` · `Playwright` · `Design tokens` · `UX` · `a11y`
+
+### [dhgVAULT](https://github.com/JackUCS/dhgVAULT) — affiliate storefront platform
 Express 5 backend with an authenticated admin panel, wishlist system, sharp-based
 image pipeline, and an esbuild build step minifying every asset. Includes security
 headers, request-IP tracking, and SEO files.
 
 `JavaScript` · `Express` · `Node` · `sharp` · `esbuild`
 
-### [Digital-CV](https://github.com/JackUCS/Digital-CV) — Interactive CV & coursework journal
-A live site with light/dark theming, a cursor spotlight, animated grid
-background, and dedicated modules and reflective-journal sections. - Updated yearly.
+### [Digital-CV](https://github.com/JackUCS/Digital-CV) — interactive CV & coursework journal
+Not a PDF — a live site with light/dark theming, a cursor spotlight, animated grid
+background, and dedicated modules and reflective-journal sections.
 [View the PDF →](https://github.com/JackUCS/Digital-CV/blob/main/JackJefferyCV.pdf)
 
 `HTML` · `CSS` · `JavaScript`
 
-### [Roblox-Monitoring-Final](https://github.com/JackUCS/Roblox-Monitoring-Final) — Automated monitor & alerter works in conjunction with [PublicInterface]
+### [Roblox-Monitoring-Final](https://github.com/JackUCS/Roblox-Monitoring-Final) — automated monitor & alerter
 Python service polling game servers via `aiohttp`, persisting state to MySQL, and
 pushing webhook alerts. Deployed on Railway with environment-based config.
 
@@ -142,6 +158,10 @@ routes alerts to them, with slash-command sync on startup.
 
 `Python` · `discord.py` · `MySQL` · `Railway`
 
+### [CampusConnect-HIGH-Res-images](https://github.com/JackUCS/CampusConnect-HIGH-Res-images)
+Entity-relationship diagram and high-resolution interface mockups.
+
+`Database design` · `ERD`
 
 ---
 
@@ -160,7 +180,7 @@ routes alerts to them, with slash-command sync on startup.
 
 - 🎓 Studying at **UCS** — programming, networking, cyber security, data science and web
 - 🛡️ Most proud of building the **Blue Team cyber range** end to end
-- 🔭 Currently building a **local services booking platform**
+- 🔭 Currently taking **LocalLink** from front-end platform to a real backend
 - 🌱 Learning **backend architecture and secure deployment**
 - 💬 Ask me about **Python bots, Express APIs, or MySQL schemas**
 

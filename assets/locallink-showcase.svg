@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="LocalLink — home page and provider dashboard, light and dark themes">
+  <title>LocalLink — service-booking marketplace</title>
+
+  <defs>
+    <linearGradient id="llBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061a2b"/>
+      <stop offset="45%" stop-color="#0a2337"/>
+      <stop offset="100%" stop-color="#08131d"/>
+    </linearGradient>
+    <linearGradient id="llAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="55%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="llCta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <pattern id="llGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e8f1f6" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="llGlowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="llGlowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="llSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="llShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02101a" flood-opacity="0.55"/>
+    </filter>
+
+    <!-- Miniature hero art: the gradient "advert" placeholder cards LocalLink generates -->
+    <linearGradient id="llArt1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123d5c"/><stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="llArt2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f5135"/><stop offset="100%" stop-color="#99f6e4"/>
+    </linearGradient>
+    <linearGradient id="llArt3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5b1f45"/><stop offset="100%" stop-color="#c8a194"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ base ============ -->
+  <rect width="1200" height="440" fill="url(#llBg)"/>
+  <rect width="1200" height="440" fill="url(#llGrid)"/>
+  <ellipse cx="230" cy="90" rx="340" ry="220" fill="url(#llGlowA)" filter="url(#llSoft)"/>
+  <ellipse cx="1010" cy="380" rx="300" ry="200" fill="url(#llGlowB)" filter="url(#llSoft)"/>
+
+  <!-- ============ headline ============ -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="48" y="62" font-size="13" font-weight="700" letter-spacing="2.6" fill="#5eead4">SHIPPED · JAVASCRIPT · CSS · PLAYWRIGHT</text>
+    <text x="46" y="108" font-size="34" font-weight="800" fill="#f7f8f8" letter-spacing="-0.6">LocalLink <tspan fill="#5eead4" font-weight="600" font-size="26">— local services, booked instantly</tspan></text>
+  </g>
+
+  <!-- ============ Screen 1 — home (light) ============ -->
+  <g filter="url(#llShadow)">
+    <rect x="46" y="132" width="540" height="278" rx="14" fill="#f6f8fa"/>
+    <path d="M46 146a14 14 0 0 1 14-14h512a14 14 0 0 1 14 14v18H46z" fill="#061a2b"/>
+    <!-- browser dots -->
+    <circle cx="66" cy="148" r="4" fill="#334155"/>
+    <circle cx="80" cy="148" r="4" fill="#334155"/>
+    <circle cx="94" cy="148" r="4" fill="#334155"/>
+    <!-- mini navbar -->
+    <rect x="112" y="141" width="8" height="8" rx="2" fill="#2dd4bf"/>
+    <text x="125" y="149" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" font-weight="700" fill="#e8f1f6">Local<tspan fill="#5eead4">Link</tspan></text>
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" fill="#9fb8c9">
+      <text x="230" y="149">Find Services</text>
+      <text x="284" y="149">How it works</text>
+      <text x="340" y="149" fill="#e8f1f6">Become a provider</text>
+    </g>
+    <rect x="404" y="138" width="30" height="13" rx="6.5" fill="none" stroke="#9fb8c9" stroke-opacity="0.5"/>
+    <text x="411" y="147" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.5" fill="#e8f1f6">Register</text>
+    <rect x="440" y="138" width="26" height="13" rx="6.5" fill="#0d9488"/>
+    <text x="447" y="147" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.5" fill="#ffffff">Log in</text>
+    <circle cx="484" cy="144.5" r="6.5" fill="#0e2f47"/>
+    <circle cx="484" cy="144.5" r="2.6" fill="none" stroke="#5eead4" stroke-width="1.1"/>
+
+    <!-- hero -->
+    <rect x="250" y="160" width="76" height="11" rx="5.5" fill="#e2e8f0"/>
+    <circle cx="259" cy="165.5" r="2" fill="#14b8a6"/>
+    <rect x="266" y="163" width="52" height="5" rx="2.5" fill="#94a3b8"/>
+    <text x="316" y="196" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#061a2b">Find services<tspan fill="#0d9488">.</tspan></text>
+    <text x="316" y="220" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#14b8a6">Book instantly.</text>
+    <text x="316" y="236" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#64748b">Search trusted local professionals and book same-day slots.</text>
+
+    <!-- finder bar -->
+    <rect x="70" y="248" width="492" height="40" rx="8" fill="#ffffff"/>
+    <rect x="70" y="248" width="492" height="40" rx="8" fill="none" stroke="#dfe6ec"/>
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#94a3b8" letter-spacing="0.6">
+      <text x="84" y="261">WHAT DO YOU NEED?</text>
+      <text x="252" y="261">WHERE?</text>
+      <text x="396" y="261">RADIUS</text>
+    </g>
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.4" fill="#334155">
+      <text x="84" y="276">Plumber, cleaner, gardener…</text>
+      <text x="252" y="276">Postcode or town</text>
+      <text x="396" y="276" font-weight="700" fill="#061a2b">Within 10 miles</text>
+    </g>
+    <path d="M238 252v32M382 252v32" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="486" y="254" width="68" height="28" rx="6" fill="url(#llCta)"/>
+    <circle cx="502" cy="266" r="4.2" fill="none" stroke="#ffffff" stroke-width="1.4"/>
+    <path d="M505.2 269.2l3 3" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="513" y="269" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#ffffff">Search</text>
+
+    <!-- popular chips -->
+    <text x="70" y="302" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" fill="#94a3b8">Popular:</text>
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" fill="#475569">
+      <rect x="104" y="294" width="44" height="12" rx="6" fill="#ffffff" stroke="#dfe6ec"/><text x="112" y="302.5">Plumbing</text>
+      <rect x="152" y="294" width="60" height="12" rx="6" fill="#ffffff" stroke="#dfe6ec"/><text x="160" y="302.5">Home cleaning</text>
+      <rect x="216" y="294" width="52" height="12" rx="6" fill="#ffffff" stroke="#dfe6ec"/><text x="224" y="302.5">Gardening</text>
+      <rect x="272" y="294" width="50" height="12" rx="6" fill="#ffffff" stroke="#dfe6ec"/><text x="280" y="302.5">Electrical</text>
+    </g>
+
+    <!-- live figures -->
+    <text x="316" y="320" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" fill="#94a3b8">
+      <tspan font-weight="700" fill="#061a2b">324</tspan> slots open in the next 7 days
+      <tspan fill="#cbd5e1"> · </tspan><tspan font-weight="700" fill="#061a2b">9</tspan> providers
+    </text>
+
+    <clipPath id="llWin1"><rect x="46" y="132" width="540" height="278" rx="14"/></clipPath>
+    <g clip-path="url(#llWin1)">
+    <!-- featured cards -->
+    <text x="70" y="344" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#0d9488" letter-spacing="0.9">TOP RATED THIS MONTH</text>
+    <text x="70" y="359" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="800" fill="#061a2b">Featured providers</text>
+
+    <rect x="70" y="368" width="152" height="68" rx="7" fill="#ffffff" stroke="#dfe6ec"/>
+    <rect x="75" y="373" width="142" height="30" rx="4" fill="url(#llArt1)"/>
+    <rect x="75" y="373" width="142" height="30" rx="4" fill="#ffffff" fill-opacity="0.10"/>
+    <circle cx="94" cy="410" r="7" fill="#2dd4bf"/>
+    <text x="94" y="412.6" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#061a2b">QC</text>
+    <text x="106" y="409" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" font-weight="700" fill="#061a2b">Quantock &amp; Co.</text>
+    <text x="106" y="418" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" fill="#64748b">Trades &amp; Repairs · Taunton</text>
+    <text x="207" y="409" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#061a2b">£38</text>
+
+    <rect x="230" y="368" width="152" height="68" rx="7" fill="#ffffff" stroke="#dfe6ec"/>
+    <rect x="235" y="373" width="142" height="30" rx="4" fill="url(#llArt2)"/>
+    <rect x="235" y="373" width="142" height="30" rx="4" fill="#ffffff" fill-opacity="0.10"/>
+    <circle cx="254" cy="410" r="7" fill="#99f6e4"/>
+    <text x="254" y="412.6" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#061a2b">BG</text>
+    <text x="266" y="409" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" font-weight="700" fill="#061a2b">Blackdown Garden</text>
+    <text x="266" y="418" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" fill="#64748b">Gardening · Wellington</text>
+    <text x="367" y="409" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#061a2b">£26</text>
+
+    <rect x="390" y="368" width="152" height="68" rx="7" fill="#ffffff" stroke="#dfe6ec"/>
+    <rect x="395" y="373" width="142" height="30" rx="4" fill="url(#llArt3)"/>
+    <rect x="395" y="373" width="142" height="30" rx="4" fill="#ffffff" fill-opacity="0.10"/>
+    <circle cx="414" cy="410" r="7" fill="#c8a194"/>
+    <text x="414" y="412.6" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" font-weight="800" fill="#061a2b">MM</text>
+    <text x="426" y="409" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" font-weight="700" fill="#061a2b">Hinkley Mobile</text>
+    <text x="426" y="418" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" fill="#64748b">Removals · Bridgwater</text>
+    <text x="527" y="409" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="700" fill="#061a2b">£44</text>
+    </g>
+  </g>
+
+  <!-- ============ Screen 2 — provider portal (dark) ============ -->
+  <g filter="url(#llShadow)">
+    <rect x="614" y="132" width="540" height="278" rx="14" fill="#08131d"/>
+    <path d="M614 146a14 14 0 0 1 14-14h512a14 14 0 0 1 14 14v18H614z" fill="#0e2f47"/>
+    <circle cx="634" cy="148" r="4" fill="#33506b"/>
+    <circle cx="648" cy="148" r="4" fill="#33506b"/>
+    <circle cx="662" cy="148" r="4" fill="#33506b"/>
+    <rect x="680" y="141" width="8" height="8" rx="2" fill="#2dd4bf"/>
+    <text x="693" y="149" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" font-weight="700" fill="#e8f1f6">Local<tspan fill="#5eead4">Link</tspan></text>
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" fill="#9fb8c9">
+      <text x="800" y="149">Find Services</text>
+      <text x="856" y="149">How it works</text>
+    </g>
+    <rect x="930" y="138" width="56" height="13" rx="6.5" fill="none" stroke="#5eead4" stroke-opacity="0.6"/>
+    <text x="939" y="147" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.5" fill="#5eead4">Dashboard</text>
+    <circle cx="994" cy="144.5" r="6.5" fill="#2dd4bf"/>
+    <text x="994" y="147" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="800" fill="#061a2b">DQ</text>
+    <text x="1005" y="147" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.5" fill="#e8f1f6">Daniel</text>
+    <circle cx="1048" cy="144.5" r="6" fill="#0e2f47"/>
+    <circle cx="1048" cy="144.5" r="2.4" fill="none" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- portal header -->
+    <text x="638" y="176" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#5eead4" letter-spacing="1.1">PROVIDER PORTAL</text>
+    <text x="638" y="192" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="800" fill="#f7f8f8">Quantock &amp; Co. Builders</text>
+    <text x="638" y="203" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" fill="#9fb8c9">Trades &amp; Repairs · Taunton · £38/hr</text>
+    <rect x="1058" y="180" width="32" height="13" rx="6.5" fill="#0d9488" fill-opacity="0.18" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <circle cx="1066" cy="186.5" r="2.2" fill="#2dd4bf"/>
+    <text x="1072" y="189" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" fill="#5eead4">Live</text>
+
+    <!-- tabs -->
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6">
+      <rect x="638" y="211" width="500" height="16" rx="8" fill="#0e2f47"/>
+      <rect x="638" y="211" width="96" height="16" rx="8" fill="#2dd4bf"/>
+      <text x="686" y="221.5" text-anchor="middle" font-weight="700" fill="#061a2b">Overview</text>
+      <text x="784" y="221.5" text-anchor="middle" fill="#9fb8c9">Listing &amp; ads</text>
+      <text x="884" y="221.5" text-anchor="middle" fill="#9fb8c9">Bookings</text>
+      <text x="980" y="221.5" text-anchor="middle" fill="#9fb8c9">Availability</text>
+      <text x="1076" y="221.5" text-anchor="middle" fill="#9fb8c9">Profile</text>
+    </g>
+
+    <!-- stat tiles -->
+    <g>
+      <rect x="638" y="235" width="118" height="42" rx="7" fill="#0e2f47" stroke="#1b3d58"/>
+      <text x="652" y="253" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="800" fill="#f7f8f8">14</text>
+      <text x="652" y="266" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#9fb8c9">Upcoming bookings</text>
+
+      <rect x="765" y="235" width="118" height="42" rx="7" fill="#0e2f47" stroke="#1b3d58"/>
+      <text x="779" y="253" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="800" fill="#f7f8f8">3</text>
+      <text x="779" y="266" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#9fb8c9">Awaiting confirmation</text>
+
+      <rect x="892" y="235" width="118" height="42" rx="7" fill="#0e2f47" stroke="#1b3d58"/>
+      <text x="906" y="253" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="800" fill="#f7f8f8">36</text>
+      <text x="906" y="266" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#9fb8c9">Free slots this week</text>
+
+      <rect x="1020" y="235" width="118" height="42" rx="7" fill="#0e2f47" stroke="#1b3d58"/>
+      <text x="1034" y="253" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="800" fill="#5eead4">£2.9k</text>
+      <text x="1034" y="266" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#9fb8c9">Booked this month</text>
+    </g>
+
+    <!-- availability grid -->
+    <rect x="638" y="286" width="500" height="110" rx="8" fill="#0a2337" stroke="#1b3d58"/>
+    <text x="652" y="302" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#f7f8f8">This week's slots</text>
+    <text x="1124" y="302" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#64748b">Grey cells are already booked</text>
+
+    <!-- day columns -->
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+      <g font-size="5.6" font-weight="700" fill="#9fb8c9" text-anchor="middle">
+        <text x="672" y="316">MON 23</text>
+        <text x="742" y="316">TUE 24</text>
+        <text x="812" y="316">WED 25</text>
+        <text x="882" y="316">THU 26</text>
+        <text x="952" y="316">FRI 27</text>
+        <text x="1022" y="316">SAT 28</text>
+        <text x="1092" y="316">SUN 29</text>
+      </g>
+      <!-- cells: free = teal, booked = grey -->
+      <g>
+        <!-- MON: booked pattern -->
+        <rect x="650" y="322" width="44" height="9" rx="2" fill="#123d5c"/><rect x="698" y="322" width="44" height="9" rx="2" fill="#123d5c"/><rect x="746" y="322" width="44" height="9" rx="2" fill="#123d5c"/>
+        <!-- TUE / WED / THU free -->
+        <rect x="650" y="334" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="698" y="334" width="44" height="9" rx="2" fill="#123d5c"/><rect x="746" y="334" width="44" height="9" rx="2" fill="#14b8a6"/>
+        <rect x="650" y="346" width="44" height="9" rx="2" fill="#123d5c"/><rect x="698" y="346" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="746" y="346" width="44" height="9" rx="2" fill="#14b8a6"/>
+        <rect x="650" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="698" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="746" y="358" width="44" height="9" rx="2" fill="#123d5c"/>
+        <rect x="650" y="370" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="698" y="370" width="44" height="9" rx="2" fill="#123d5c"/><rect x="746" y="370" width="44" height="9" rx="2" fill="#14b8a6"/>
+      </g>
+      <!-- right-side days: reuse pattern -->
+      <g>
+        <rect x="796" y="322" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="844" y="322" width="44" height="9" rx="2" fill="#123d5c"/><rect x="892" y="322" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="940" y="322" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="988" y="322" width="44" height="9" rx="2" fill="#123d5c"/><rect x="1036" y="322" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1084" y="322" width="44" height="9" rx="2" fill="#123d5c"/>
+        <rect x="796" y="334" width="44" height="9" rx="2" fill="#123d5c"/><rect x="844" y="334" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="892" y="334" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="940" y="334" width="44" height="9" rx="2" fill="#123d5c"/><rect x="988" y="334" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1036" y="334" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1084" y="334" width="44" height="9" rx="2" fill="#123d5c"/>
+        <rect x="796" y="346" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="844" y="346" width="44" height="9" rx="2" fill="#123d5c"/><rect x="892" y="346" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="940" y="346" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="988" y="346" width="44" height="9" rx="2" fill="#123d5c"/><rect x="1036" y="346" width="44" height="9" rx="2" fill="#123d5c"/><rect x="1084" y="346" width="44" height="9" rx="2" fill="#123d5c"/>
+        <rect x="796" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="844" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="892" y="358" width="44" height="9" rx="2" fill="#123d5c"/><rect x="940" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="988" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1036" y="358" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1084" y="358" width="44" height="9" rx="2" fill="#123d5c"/>
+        <rect x="796" y="370" width="44" height="9" rx="2" fill="#123d5c"/><rect x="844" y="370" width="44" height="9" rx="2" fill="#123d5c"/><rect x="892" y="370" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="940" y="370" width="44" height="9" rx="2" fill="#123d5c"/><rect x="988" y="370" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1036" y="370" width="44" height="9" rx="2" fill="#14b8a6"/><rect x="1084" y="370" width="44" height="9" rx="2" fill="#123d5c"/>
+      </g>
+    </g>
+
+    <!-- bookings panel -->
+    <rect x="638" y="404" width="500" height="0" rx="8" fill="none"/>
+  </g>
+
+  <!-- footer caption -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#5eead4" letter-spacing="0.4">
+    <text x="48" y="431" fill="#7d8ba3" font-weight="500">
+      light + dark theming <tspan fill="#2dd4bf">·</tspan> role-aware dashboards <tspan fill="#2dd4bf">·</tspan> availability + slot engine <tspan fill="#2dd4bf">·</tspan> Playwright layout harness
+    </text>
+  </g>
+</svg>
