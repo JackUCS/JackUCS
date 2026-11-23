@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Blue Team Cyber Range — incidents board and a live investigation in the Blue Team Console">
+  <title>Blue Team Target VM — Cyber Range</title>
+
+  <defs>
+    <linearGradient id="rBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f18"/>
+      <stop offset="50%" stop-color="#0e1521"/>
+      <stop offset="100%" stop-color="#080c13"/>
+    </linearGradient>
+    <linearGradient id="rNav" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1b2534"/>
+      <stop offset="100%" stop-color="#141d29"/>
+    </linearGradient>
+    <linearGradient id="rAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a3e635"/>
+      <stop offset="100%" stop-color="#65a30d"/>
+    </linearGradient>
+    <linearGradient id="rName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f1f5f9"/>
+      <stop offset="60%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#a3e635"/>
+    </linearGradient>
+    <pattern id="rGrid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#e2e8f0" stroke-opacity="0.030" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="rGlowL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#65a30d" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#65a30d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rGlowR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="rSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="rShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <!-- faint phosphor scan lines over the console panes -->
+    <pattern id="rScan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#a3e635" fill-opacity="0.020"/>
+    </pattern>
+    <clipPath id="rWin1"><rect x="46" y="136" width="556" height="296" rx="12"/></clipPath>
+    <clipPath id="rWin2"><rect x="628" y="136" width="526" height="296" rx="12"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#rBg)"/>
+  <rect width="1200" height="500" fill="url(#rGrid)"/>
+  <ellipse cx="250" cy="60" rx="380" ry="240" fill="url(#rGlowL)" filter="url(#rSoft)"/>
+  <ellipse cx="1010" cy="400" rx="320" ry="200" fill="url(#rGlowR)" filter="url(#rSoft)"/>
+
+  <!-- ================= headline ================= -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="48" y="60" font-size="13" font-weight="700" letter-spacing="2.6" fill="#a3e635">OFFLINE · SINGLE OVA · SIX GRADED SCENARIOS</text>
+    <text x="46" y="106" font-size="34" font-weight="800" fill="url(#rName)" letter-spacing="-0.6">Blue Team Cyber Range <tspan fill="#94a3b8" font-weight="600" font-size="24">— Ubuntu 22.04 · boot and investigate</tspan></text>
+  </g>
+
+  <!-- ============================================================
+       PANE 1 — Incidents board
+       ============================================================ -->
+  <g filter="url(#rShadow)">
+    <rect x="46" y="136" width="556" height="296" rx="12" fill="#eef1f5"/>
+    <g clip-path="url(#rWin1)">
+      <!-- console navbar -->
+      <rect x="46" y="136" width="556" height="42" fill="url(#rNav)"/>
+
+      <!-- logo: cloud + Try Defend Me + binary -->
+      <g>
+        <!-- binary watermark -->
+        <g font-family="'Consolas',monospace" font-size="4.6" fill="#7dd3fc" opacity="0.75">
+          <text x="61" y="151" font-size="4.2">1110</text>
+          <text x="61" y="172" font-size="4.2">0110</text>
+        </g>
+        <!-- cloud -->
+        <path d="M68 160a5.4 5.4 0 0 1 5.2-5.6 6.6 6.6 0 0 1 6.2-4.2 6.8 6.8 0 0 1 6.4 4.6 5 5 0 0 1 4.4 5 4.6 4.6 0 0 1-4.6 4.5H72.6a4.5 4.5 0 0 1-4.6-4.3z" fill="none" stroke="#7dd3fc" stroke-width="1.3"/>
+        <!-- TRY DEFEND ME -->
+        <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.6" font-weight="800" letter-spacing="0.2">
+          <text x="77" y="155" fill="#f8fafc">Try</text>
+          <text x="77" y="162" fill="#f8fafc">Defend</text>
+          <text x="77" y="169" fill="#38bdf8">Me</text>
+        </g>
+      </g>
+
+      <!-- divider + org line -->
+      <path d="M112 150v26" stroke="#3b4a5f" stroke-width="0.8"/>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+        <text x="122" y="155" font-size="4.8" letter-spacing="0.9" fill="#94a3b8">UNIVERSITY CENTRE SOMERSET · SECURITY OPERATIONS</text>
+        <text x="122" y="166" font-size="9" font-weight="700" fill="#f8fafc">Blue Team Console</text>
+      </g>
+
+      <!-- nav links -->
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.2">
+        <text x="440" y="162" font-weight="700" fill="#ffffff">Incidents</text>
+        <text x="487" y="162" fill="#94a3b8">Reference</text>
+      </g>
+      <!-- score chip -->
+      <rect x="528" y="146" width="56" height="20" rx="4" fill="#2c3a4d"/>
+      <text x="537" y="160" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" font-weight="800" fill="#a3e635">60</text>
+      <text x="551" y="160" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.4" fill="#94a3b8">/ 1500</text>
+
+      <!-- page heading -->
+      <text x="62" y="200" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" font-weight="700" fill="#1e293b">Incidents</text>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" fill="#64748b">
+        <text x="62" y="212">You are the analyst on shift. Pick an incident. Read what is already known,</text>
+        <text x="62" y="221">work the steps in order, and enter the finding each step asks for.</text>
+      </g>
+
+      <!-- filter pills -->
+      <rect x="62" y="230" width="46" height="16" rx="8" fill="#1e293b"/>
+      <text x="72" y="240.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" font-weight="700" fill="#ffffff">All (6)</text>
+      <rect x="112" y="230" width="48" height="16" rx="8" fill="#e2e8f0"/>
+      <text x="120" y="240.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" fill="#475569">Open (6)</text>
+      <rect x="164" y="230" width="50" height="16" rx="8" fill="#e2e8f0"/>
+      <text x="171" y="240.6" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6" fill="#475569">Closed (0)</text>
+
+      <!-- incident cards: 3 x 2 -->
+      <!-- shared card metrics: w=170 h=78, gap 8 -->
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+        <!-- CARD 1 -->
+        <rect x="62" y="254" width="170" height="76" rx="6" fill="#ffffff" stroke="#dde3ea"/>
+        <rect x="70" y="262" width="14" height="10" rx="2" fill="#eef1f5"/><text x="73.5" y="269.4" font-size="5.6" font-weight="700" fill="#64748b">01</text>
+        <rect x="88" y="263" width="2" height="2" fill="#a3e635"/><rect x="91" y="261.5" width="2" height="3.5" fill="#a3e635"/><rect x="94" y="260" width="2" height="5" fill="#a3e635"/>
+        <text x="99" y="269.4" font-size="5.6" font-weight="700" fill="#059669">Easy</text>
+        <text x="216" y="269.4" text-anchor="end" font-size="5.6" font-weight="700" fill="#334155">200 pts</text>
+        <text x="70" y="284" font-size="7.6" font-weight="700" fill="#1e293b">C2 Beacon Detection</text>
+        <text x="70" y="292.6" font-size="5.4" fill="#94a3b8">Network Forensics</text>
+        <g font-size="5" fill="#64748b">
+          <text x="70" y="302">One of the office machines keeps talking</text>
+          <text x="70" y="309.5">to the same address outside the college,</text>
+          <text x="70" y="317">over and over.</text>
+        </g>
+        <rect x="70" y="321" width="122" height="2.6" rx="1.3" fill="#e2e8f0"/>
+        <text x="224" y="325" text-anchor="end" font-size="6" font-weight="700" fill="#1e293b">Start</text>
+
+        <!-- CARD 2 -->
+        <rect x="240" y="254" width="170" height="76" rx="6" fill="#ffffff" stroke="#dde3ea"/>
+        <rect x="248" y="262" width="14" height="10" rx="2" fill="#eef1f5"/><text x="251.5" y="269.4" font-size="5.6" font-weight="700" fill="#64748b">02</text>
+        <rect x="266" y="263" width="2" height="2" fill="#f97316"/><rect x="269" y="261.5" width="2" height="3.5" fill="#f97316"/><rect x="272" y="260" width="2" height="5" fill="#f97316"/>
+        <text x="277" y="269.4" font-size="5.6" font-weight="700" fill="#ea580c">Intermediate</text>
+        <text x="394" y="269.4" text-anchor="end" font-size="5.6" font-weight="700" fill="#334155">250 pts</text>
+        <text x="248" y="284" font-size="7.6" font-weight="700" fill="#1e293b">DNS Tunnelling Detection</text>
+        <text x="248" y="292.6" font-size="5.4" fill="#94a3b8">Network Forensics</text>
+        <g font-size="5" fill="#64748b">
+          <text x="248" y="302">Somebody is sending data out of the</text>
+          <text x="248" y="309.5">college hidden inside DNS lookups.</text>
+          <text x="248" y="317">Almost every firewall lets DNS through.</text>
+        </g>
+        <rect x="248" y="321" width="122" height="2.6" rx="1.3" fill="#e2e8f0"/>
+        <text x="402" y="325" text-anchor="end" font-size="6" font-weight="700" fill="#1e293b">Start</text>
+
+        <!-- CARD 3 -->
+        <rect x="418" y="254" width="170" height="76" rx="6" fill="#ffffff" stroke="#dde3ea"/>
+        <rect x="426" y="262" width="14" height="10" rx="2" fill="#eef1f5"/><text x="429.5" y="269.4" font-size="5.6" font-weight="700" fill="#64748b">03</text>
+        <rect x="444" y="263" width="2" height="2" fill="#a3e635"/><rect x="447" y="261.5" width="2" height="3.5" fill="#a3e635"/><rect x="450" y="260" width="2" height="5" fill="#a3e635"/>
+        <text x="455" y="269.4" font-size="5.6" font-weight="700" fill="#059669">Easy</text>
+        <text x="572" y="269.4" text-anchor="end" font-size="5.6" font-weight="700" fill="#334155">200 pts</text>
+        <text x="426" y="284" font-size="7.6" font-weight="700" fill="#1e293b">File Integrity Violation</text>
+        <text x="426" y="292.6" font-size="5.4" fill="#94a3b8">Host Forensics</text>
+        <g font-size="5" fill="#64748b">
+          <text x="426" y="302">A config file on an internal server was</text>
+          <text x="426" y="309.5">changed and nobody authorised it. The</text>
+          <text x="426" y="317">team wants what changed and which</text>
+        </g>
+        <rect x="426" y="321" width="122" height="2.6" rx="1.3" fill="#e2e8f0"/>
+        <text x="580" y="325" text-anchor="end" font-size="6" font-weight="700" fill="#1e293b">Start</text>
+
+        <!-- CARD 4 — in progress (lime bar) -->
+        <rect x="62" y="338" width="170" height="76" rx="6" fill="#ffffff" stroke="#dde3ea"/>
+        <rect x="70" y="346" width="14" height="10" rx="2" fill="#eef1f5"/><text x="73.5" y="353.4" font-size="5.6" font-weight="700" fill="#64748b">04</text>
+        <rect x="88" y="347" width="2" height="2" fill="#ef4444"/><rect x="91" y="345.5" width="2" height="3.5" fill="#ef4444"/><rect x="94" y="344" width="2" height="5" fill="#ef4444"/>
+        <text x="99" y="353.4" font-size="5.6" font-weight="700" fill="#dc2626">Hard</text>
+        <text x="216" y="353.4" text-anchor="end" font-size="5.6" font-weight="700" fill="#334155">300 pts</text>
+        <text x="70" y="368" font-size="7.6" font-weight="700" fill="#1e293b">Web Server Compromise</text>
+        <text x="70" y="376.6" font-size="5.4" fill="#94a3b8">Host Forensics</text>
+        <g font-size="5" fill="#64748b">
+          <text x="70" y="386">An internal web server was broken into.</text>
+          <text x="70" y="393.5">Someone dropped a web shell into the</text>
+          <text x="70" y="401">folder it serves pages from.</text>
+        </g>
+        <rect x="70" y="405" width="122" height="2.6" rx="1.3" fill="#e2e8f0"/>
+        <rect x="70" y="405" width="24" height="2.6" rx="1.3" fill="#a3e635"/>
+        <text x="224" y="409" text-anchor="end" font-size="6" font-weight="700" fill="#1e293b">Continue · 1/5</text>
+
+        <!-- CARD 5 -->
+        <rect x="240" y="338" width="170" height="76" rx="6" fill="#ffffff" stroke="#dde3ea"/>
+        <rect x="248" y="346" width="14" height="10" rx="2" fill="#eef1f5"/><text x="251.5" y="353.4" font-size="5.6" font-weight="700" fill="#64748b">05</text>
+        <rect x="266" y="347" width="2" height="2" fill="#ef4444"/><rect x="269" y="345.5" width="2" height="3.5" fill="#ef4444"/><rect x="272" y="344" width="2" height="5" fill="#ef4444"/>
+        <text x="277" y="353.4" font-size="5.6" font-weight="700" fill="#dc2626">Hard</text>
+        <text x="394" y="353.4" text-anchor="end" font-size="5.6" font-weight="700" fill="#334155">300 pts</text>
+        <text x="248" y="368" font-size="7.6" font-weight="700" fill="#1e293b">Lateral Movement / Pivot</text>
+        <text x="248" y="376.6" font-size="5.4" fill="#94a3b8">Network Forensics</text>
+        <g font-size="5" fill="#64748b">
+          <text x="248" y="386">One machine on the network is knocking</text>
+          <text x="248" y="393.5">on lots of ports and then trying to log</text>
+          <text x="248" y="401">in over SSH.</text>
+        </g>
+        <rect x="248" y="405" width="122" height="2.6" rx="1.3" fill="#e2e8f0"/>
+        <text x="402" y="409" text-anchor="end" font-size="6" font-weight="700" fill="#1e293b">Start</text>
+
+        <!-- CARD 6 -->
+        <rect x="418" y="338" width="170" height="76" rx="6" fill="#ffffff" stroke="#dde3ea"/>
+        <rect x="426" y="346" width="14" height="10" rx="2" fill="#eef1f5"/><text x="429.5" y="353.4" font-size="5.6" font-weight="700" fill="#64748b">06</text>
+        <rect x="444" y="347" width="2" height="2" fill="#f97316"/><rect x="447" y="345.5" width="2" height="3.5" fill="#f97316"/><rect x="450" y="344" width="2" height="5" fill="#f97316"/>
+        <text x="455" y="353.4" font-size="5.6" font-weight="700" fill="#ea580c">Intermediate</text>
+        <text x="572" y="353.4" text-anchor="end" font-size="5.6" font-weight="700" fill="#334155">250 pts</text>
+        <text x="426" y="368" font-size="7.6" font-weight="700" fill="#1e293b">Insider Data Exfiltration</text>
+        <text x="426" y="376.6" font-size="5.4" fill="#94a3b8">Incident Response</text>
+        <g font-size="5" fill="#64748b">
+          <text x="426" y="386">HR are worried that payroll data is</text>
+          <text x="426" y="393.5">leaving the college. No alert says</text>
+          <text x="426" y="401">'exfiltration'.</text>
+        </g>
+        <rect x="426" y="405" width="122" height="2.6" rx="1.3" fill="#e2e8f0"/>
+        <text x="580" y="409" text-anchor="end" font-size="6" font-weight="700" fill="#1e293b">Start</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================
+       PANE 2 — Live investigation (C2 beacon)
+       ============================================================ -->
+  <g filter="url(#rShadow)">
+    <rect x="628" y="136" width="526" height="296" rx="12" fill="#eef1f5"/>
+    <g clip-path="url(#rWin2)">
+      <!-- console navbar (condensed) -->
+      <rect x="628" y="136" width="526" height="34" fill="url(#rNav)"/>
+      <g font-family="'Consolas',monospace" font-size="4.2" fill="#7dd3fc" opacity="0.7">
+        <text x="640" y="147">1110</text><text x="640" y="164">0110</text>
+      </g>
+      <path d="M651 155a4.6 4.6 0 0 1 4.4-4.8 5.6 5.6 0 0 1 5.2-3.6 5.8 5.8 0 0 1 5.4 3.9 4.2 4.2 0 0 1 0 8.4h-10.4a3.8 3.8 0 0 1-4.6-3.9z" fill="none" stroke="#7dd3fc" stroke-width="1.1"/>
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="800">
+        <text x="658" y="147" fill="#f8fafc">Try</text>
+        <text x="658" y="153" fill="#f8fafc">Defend</text>
+        <text x="658" y="159" fill="#38bdf8">Me</text>
+      </g>
+      <path d="M679 144v18" stroke="#3b4a5f" stroke-width="0.7"/>
+      <text x="686" y="149" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.4" letter-spacing="0.9" fill="#94a3b8">UNIVERSITY CENTRE SOMERSET · SECURITY OPERATIONS</text>
+      <text x="686" y="159" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#f8fafc">Blue Team Console</text>
+      <text x="1010" y="154" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="700" fill="#ffffff">Incidents</text>
+      <text x="1054" y="154" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" fill="#94a3b8">Reference</text>
+      <rect x="1090" y="142" width="48" height="17" rx="4" fill="#2c3a4d"/>
+      <text x="1098" y="154" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7" font-weight="800" fill="#a3e635">60</text>
+      <text x="1110" y="154" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.4" fill="#94a3b8">/ 1500</text>
+
+      <!-- context card (partially scrolled) -->
+      <rect x="642" y="176" width="498" height="52" rx="5" fill="#ffffff" stroke="#dde3ea"/>
+      <circle cx="660" cy="192" r="2.4" fill="#f59e0b"/>
+      <text x="668" y="195" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#475569">The sensor thinks it looks like malware calling home.</text>
+      <path d="M652 202h478" stroke="#e2e8f0" stroke-width="0.7"/>
+      <text x="656" y="213" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.8" fill="#64748b">What we <tspan font-style="italic">don't</tspan> know is the actual question — and that is your job.</text>
+      <rect x="652" y="219" width="120" height="2.2" rx="1.1" fill="#e2e8f0"/>
+      <text x="780" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" fill="#64748b">0 of 6 tasks complete</text>
+      <rect x="868" y="215" width="34" height="12" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="877" y="223.4" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" font-weight="700" fill="#1e293b">Replay</text>
+
+      <!-- active step card -->
+      <rect x="642" y="236" width="498" height="112" rx="5" fill="#ffffff" stroke="#94a3b8"/>
+      <circle cx="658" cy="252" r="6" fill="none" stroke="#1e293b" stroke-width="1.1"/>
+      <text x="658" y="254.6" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#1e293b">1</text>
+      <text x="670" y="255" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.6" font-weight="700" fill="#1e293b">Identify what the IDS is reporting</text>
+      <text x="1130" y="255" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.4" font-weight="700" fill="#64748b">In progress</text>
+
+      <text x="652" y="270" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="6.2" font-weight="700" fill="#1e293b">Which classification does the beacon alert carry?</text>
+
+      <!-- terminal -->
+      <rect x="652" y="275" width="478" height="21" rx="4" fill="#1e293b"/>
+      <text x="660" y="289" font-family="'Consolas','Courier New',monospace" font-size="5.8" fill="#e2e8f0">
+        sudo <tspan fill="#a3e635">grep -E "1000002|1000008" /var/log/suricata/fast.log | tail</tspan>
+      </text>
+      <rect x="1108" y="279" width="18" height="13" rx="3" fill="#334155"/>
+      <text x="1117" y="288" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.6" font-weight="700" fill="#e2e8f0">copy</text>
+
+      <!-- what this command does -->
+      <rect x="652" y="300" width="478" height="13" rx="4" fill="#f1f5f9"/>
+      <rect x="660" y="304.6" width="4" height="4" rx="1" fill="none" stroke="#64748b" stroke-width="0.7"/>
+      <text x="669" y="309.4" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.4" font-weight="700" fill="#334155">What this command does</text>
+
+      <text x="652" y="323" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#2563eb">+ Need a hint?</text>
+      <text x="652" y="333" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.2" font-weight="700" fill="#334155">Suricata classification for the beacon alerts</text>
+      <rect x="652" y="336" width="478" height="13" rx="3" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="660" y="345" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.4" fill="#64748b">— select —</text>
+      <path d="M1118 340l3 3 3-3" fill="none" stroke="#64748b" stroke-width="0.9"/>
+      <text x="652" y="357" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="4.8" fill="#94a3b8">Pick the value that matches your output</text>
+      <rect x="652" y="359" width="76" height="15" rx="4" fill="#d9f99d"/>
+      <text x="690" y="369" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="5.6" font-weight="700" fill="#65a30d">Submit finding</text>
+
+      <!-- locked steps -->
+      <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+        <rect x="642" y="354" width="498" height="0" fill="none"/>
+        <rect x="642" y="356" width="498" height="20" rx="5" fill="#ffffff" stroke="#e2e8f0"/>
+        <circle cx="658" cy="366" r="5.4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+        <text x="658" y="368.4" text-anchor="middle" font-size="5.2" fill="#94a3b8">2</text>
+        <text x="672" y="368.6" font-size="6" font-weight="700" fill="#64748b">Read the check-in on the wire</text>
+        <text x="1130" y="368.6" text-anchor="end" font-size="5.2" fill="#94a3b8">Locked</text>
+
+        <rect x="642" y="380" width="498" height="20" rx="5" fill="#ffffff" stroke="#e2e8f0"/>
+        <circle cx="658" cy="390" r="5.4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+        <text x="658" y="392.4" text-anchor="middle" font-size="5.2" fill="#94a3b8">3</text>
+        <text x="672" y="392.6" font-size="6" font-weight="700" fill="#64748b">Read the conversation from a capture file</text>
+        <text x="1130" y="392.6" text-anchor="end" font-size="5.2" fill="#94a3b8">Locked</text>
+
+        <rect x="642" y="404.5" width="498" height="20" rx="5" fill="#ffffff" stroke="#e2e8f0"/>
+        <circle cx="658" cy="414.5" r="5.4" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+        <text x="658" y="416.9" text-anchor="middle" font-size="5.2" fill="#94a3b8">4</text>
+        <text x="672" y="417.1" font-size="6" font-weight="700" fill="#64748b">Attribute the traffic to a process</text>
+        <text x="1130" y="417.1" text-anchor="end" font-size="5.2" fill="#94a3b8">Locked</text>
+      </g>
+
+      <!-- subtle green term glow -->
+      <rect x="628" y="136" width="526" height="296" fill="url(#rScan)"/>
+    </g>
+  </g>
+
+  <!-- ================= footer caption ================= -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#8899ab">
+    <text x="48" y="478">
+      Suricata + Zeek + Wireshark <tspan fill="#a3e635">·</tspan> findings validated step by step <tspan fill="#a3e635">·</tspan> CTFd-compatible flags only on genuine containment <tspan fill="#a3e635">·</tspan> no internet required
+    </text>
+  </g>
+</svg>

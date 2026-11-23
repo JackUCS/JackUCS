@@ -50,6 +50,14 @@ Discord automation, and a self-contained defensive-security cyber range.
 ### Blue Team Target VM — Cyber Range
 > 🔒 Private repository — happy to walk through it on request
 
+<div align="center">
+
+<img src="assets/cyber-range-showcase.svg" alt="Blue Team Console — incidents board with six graded scenarios and a live C2 beacon investigation" width="100%" />
+
+<sub><b>Incidents board</b> — six graded scenarios, progress tracked · <b>Blue Team Console</b> — staged investigation with validated findings</sub>
+
+</div>
+
 A pre-built, portable **Ubuntu 22.04 LTS defensive-analysis desktop** shipped as a
 single OVA. Designed to be handed to a student on a USB stick and used with
 **no internet, no Vagrant, and no setup steps** — boot it, log in, investigate.
