@@ -1,8 +1,6 @@
 <div align="center">
 
-# Jack Jeffery
-
-**Full-stack developer · Python & JavaScript · UCS**
+<img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
 
 I build systems end to end — the database schema, the API, the frontend, and the deploy.
 Recent work spans web platforms, Discord automation, and a self-contained
