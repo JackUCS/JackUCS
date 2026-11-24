@@ -172,21 +172,6 @@ A local-services marketplace where a customer searches by **what · where · rad
 sees a provider's *real* availability and books a slot — and where a provider gets a
 portal that runs their diary. Not a mockup: 11 pages, three roles, 15 JS modules, zero dependencies.
 
-**What's in it**
-
-- **Three roles, three dashboards** — customers track bookings, spend and rebook in one tap;
-  providers manage bookings, availability and their public listing; admins review
-  pending applications, moderate accounts and watch platform analytics.
-- **A real slot engine** — weekly recurring availability, per-day exceptions, booked cells
-  greyed out, and next-available surfaced everywhere a provider is shown.
-- **A theming layer, not a dark mode toggle** — semantic tokens resolved before first paint,
-  so light and dark are genuinely equal citizens across every page.
-- **Search that filters for real** — category rail, price ceiling, availability and rating
-  filters, sorting, and deep links (`?category=…`).
-- **15 JS modules behind one store** — no framework, no build step, no `npm install`.
-- **Playwright harness** — navbar and `<select>` styling across 10 pages × 4 roles × 10
-  widths, plus booking-engine, booking-flow and provider-identity suites.
-
 [**Open the design workup →**](https://github.com/JackUCS/LocalLink)
 
 `JavaScript` · `CSS` · `Playwright` · `Design tokens` · `UX` · `a11y`
