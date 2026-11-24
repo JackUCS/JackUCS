@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
 
-I build systems end to end — the database schema, the API, the frontend, and the deploy.
+I build systems end to end from the database schema, to the API, the frontend, and the deploy.
 Recent work spans a **local-services booking platform**, **lnkd.lol** in production,
 Discord automation, and a self-contained defensive-security cyber range.
 
@@ -47,8 +47,8 @@ Discord automation, and a self-contained defensive-security cyber range.
 
 ## 🏆 Featured project
 
-### Blue Team Target VM — Cyber Range
-> 🔒 Private repository — happy to walk through it on request
+### Blue Team Target VM Cyber Range
+> 🔒 Private repository happy to walk through it on request
 
 <div align="center">
 
@@ -59,10 +59,10 @@ Discord automation, and a self-contained defensive-security cyber range.
 </div>
 
 A pre-built, portable **Ubuntu 22.04 LTS defensive-analysis desktop** shipped as a
-single OVA. Designed to be handed to a student on a USB stick and used with
-**no internet, no Vagrant, and no setup steps** — boot it, log in, investigate.
+single OVA. Designed to be handed to a student on a USB stick.
+Boot it log-in and Investigate
 
-It bundles Suricata, Zeek and Wireshark alongside a custom interactive incident
+It bundles Suricata, Zeek, Wireshark, tcpdump and other tools alongside a custom interactive incident
 console and a CTFd scoreboard, then runs **six self-starting graded scenarios**
 that plant realistic but entirely benign attacks:
 
@@ -76,7 +76,7 @@ that plant realistic but entirely benign attacks:
 | 6 | Insider Data Exfiltration | Incident Response | 250 |
 
 Each scenario releases a **CTFd-compatible flag only when the objective is
-genuinely met** — typically "identify *and* contain", not just spot it.
+ met** the typical flow is "identify *and* contain", not just spot it.
 
 **Engineered for real deployment:** a shared shell library drives flag state across
 all scenarios, a Python API exposes progress, a React/TypeScript HUD serves the
@@ -90,8 +90,8 @@ with it.
 
 ## 📌 Other projects
 
-### linkd — live at [lnkd.lol](https://lnkd.lol)
-> 🔒 Private repository — running in production
+### linkd live at [lnkd.lol](https://lnkd.lol)
+> 🔒 Private repository — running in production currently in development
 
 <div align="center">
 
@@ -103,7 +103,7 @@ with it.
 
 A self-hosted link-in-bio profile builder: 16 themes, 4 layouts, 12 custom cursors,
 11 animated username effects, 7 canvas particle effects, background audio with an
-upload library, a media host and real analytics — every profile on its own URL.
+upload library, a media host and real analytics every profile has its own URL.
 
 Express 5 with PostgreSQL on **Supabase**, JWT + bcrypt auth, and direct-to-**Cloudflare R2**
 uploads via presigned URLs — the 25 MB file never touches the server, and storage stays
@@ -114,39 +114,6 @@ the build end to end, including a real-browser upload test against R2.
 
 `JavaScript` · `Express` · `PostgreSQL` · `Supabase` · `Cloudflare R2` · `JWT` · `Playwright`
 
-### LocalLink — local services, booked instantly
-> 🔒 Private repository — design workup is [public here](https://github.com/JackUCS/LocalLink)
-
-<div align="center">
-
-<a href="https://github.com/JackUCS/LocalLink"><img src="assets/locallink-showcase.svg" alt="LocalLink — home page in light theme and the provider portal in dark theme" width="100%" /></a>
-
-<sub><b>Homepage</b> — search by what · where · radius, live slot counts · <b>Provider portal</b> — bookings, availability grid, listing management</sub>
-
-</div>
-
-A local-services marketplace where a customer searches by **what · where · radius**,
-sees a provider's *real* availability and books a slot — and where a provider gets a
-portal that runs their diary. Not a mockup: 11 pages, three roles, 15 JS modules, zero dependencies.
-
-**What's in it**
-
-- **Three roles, three dashboards** — customers track bookings, spend and rebook in one tap;
-  providers manage bookings, availability and their public listing; admins review
-  pending applications, moderate accounts and watch platform analytics.
-- **A real slot engine** — weekly recurring availability, per-day exceptions, booked cells
-  greyed out, and next-available surfaced everywhere a provider is shown.
-- **A theming layer, not a dark mode toggle** — semantic tokens resolved before first paint,
-  so light and dark are genuinely equal citizens across every page.
-- **Search that filters for real** — category rail, price ceiling, availability and rating
-  filters, sorting, and deep links (`?category=…`).
-- **15 JS modules behind one store** — no framework, no build step, no `npm install`.
-- **Playwright harness** — navbar and `<select>` styling across 10 pages × 4 roles × 10
-  widths, plus booking-engine, booking-flow and provider-identity suites.
-
-[**Open the design workup →**](https://github.com/JackUCS/LocalLink)
-
-`JavaScript` · `CSS` · `Playwright` · `Design tokens` · `UX` · `a11y`
 
 ### dhgVAULT — live at [dhgatevault.com](https://dhgatevault.com)
 > 🔒 Private repository — running in production
@@ -180,7 +147,7 @@ headers, request-IP tracking, and SEO files.
 
 </div>
 
-Not a PDF — a live CV with light/dark theming, a cursor spotlight, animated grid
+A live CV with light/dark theming, a cursor spotlight, animated grid
 background, and dedicated modules and reflective-journal sections. Deployed on Railway
 on its own domain, so the DNS work (CNAME, TXT verification, fixing a 502 from URL
 redirects) was part of the build, not an afterthought.
@@ -201,6 +168,40 @@ routes alerts to them, with slash-command sync on startup.
 
 `Python` · `discord.py` · `MySQL` · `Railway`
 
+### LocalLink local services, booked instantly
+> 🔒 Private repository — design workup is [public here](https://github.com/JackUCS/LocalLink)
+
+<div align="center">
+
+<a href="https://github.com/JackUCS/LocalLink"><img src="assets/locallink-showcase.svg" alt="LocalLink — home page in light theme and the provider portal in dark theme" width="100%" /></a>
+
+<sub><b>Homepage</b> — search by what · where · radius, live slot counts · <b>Provider portal</b> — bookings, availability grid, listing management</sub>
+
+</div>
+
+A local-services marketplace where a customer searches by **what · where · radius**,
+sees a provider's *real* availability and books a slot — and where a provider gets a
+portal that runs their diary. Not a mockup: 11 pages, three roles, 15 JS modules, zero dependencies.
+
+**What's in it**
+
+- **Three roles, three dashboards** — customers track bookings, spend and rebook in one tap;
+  providers manage bookings, availability and their public listing; admins review
+  pending applications, moderate accounts and watch platform analytics.
+- **A real slot engine** — weekly recurring availability, per-day exceptions, booked cells
+  greyed out, and next-available surfaced everywhere a provider is shown.
+- **A theming layer, not a dark mode toggle** — semantic tokens resolved before first paint,
+  so light and dark are genuinely equal citizens across every page.
+- **Search that filters for real** — category rail, price ceiling, availability and rating
+  filters, sorting, and deep links (`?category=…`).
+- **15 JS modules behind one store** — no framework, no build step, no `npm install`.
+- **Playwright harness** — navbar and `<select>` styling across 10 pages × 4 roles × 10
+  widths, plus booking-engine, booking-flow and provider-identity suites.
+
+[**Open the design workup →**](https://github.com/JackUCS/LocalLink)
+
+`JavaScript` · `CSS` · `Playwright` · `Design tokens` · `UX` · `a11y`
+
 
 ---
 
@@ -217,19 +218,19 @@ routes alerts to them, with slash-command sync on startup.
 
 ## 🧭 About me
 
-- 🎓 Studying at **UCS** — programming, networking, cyber security, data science and web
+- 🎓 Studying at **UCS**  Programming, networking, cyber security, data science and web
 - 🛡️ Most proud of building the **Blue Team cyber range** end to end
-- 🔭 Currently taking **LocalLink** from front-end platform to a real backend
-- 🌱 Learning **backend architecture and secure deployment**
+- 🔭 Currently implementing **LocalLink's** back-end 
+- 🌱 Learning **backend architecture and secure deployment considerations**
 - 💬 Ask me about **Python bots, Express APIs, or MySQL schemas**
 
 ## 🎯 Outside of code
 
-- 🎮 **Gaming** — ARPGs and looter shooters (*Path of Exile 2*, *Destiny 2*),
+- 🎮 **Gaming** ARPGs and looter shooters (*Path of Exile 2*, *Destiny 2*),
   hero shooters and battle royales (*Fortnite*, *Apex Legends*), plus *Rocket League*,
   *Call of Duty* and *Geometry Dash*
-- 🎧 **Music** — EDM and hyperpop
-- 🎨 **Design** — UI mockups, wireframes, and interface work
+- 🎧 **Music** EDM and hyperpop
+- 🎨 **Design** UI mockups, wireframes, and interface work
 
 ---
 
