@@ -156,17 +156,6 @@ redirects) was part of the build, not an afterthought.
 
 `HTML` · `CSS` · `JavaScript`
 
-### [Roblox-Monitoring-Final](https://github.com/JackUCS/Roblox-Monitoring-Final) — automated monitor & alerter
-Python service polling game servers via `aiohttp`, persisting state to MySQL, and
-pushing webhook alerts. Deployed on Railway with environment-based config.
-
-`Python` · `aiohttp` · `MySQL` · `Railway`
-
-### [PublicInterface](https://github.com/JackUCS/PublicInterface) — Discord slash-command bot
-Command interface over a MySQL backend — users register webhook endpoints and the bot
-routes alerts to them, with slash-command sync on startup.
-
-`Python` · `discord.py` · `MySQL` · `Railway`
 
 ### LocalLink local services, booked instantly
 > 🔒 Private repository — design workup is [public here](https://github.com/JackUCS/LocalLink)
@@ -201,6 +190,19 @@ portal that runs their diary. Not a mockup: 11 pages, three roles, 15 JS modules
 [**Open the design workup →**](https://github.com/JackUCS/LocalLink)
 
 `JavaScript` · `CSS` · `Playwright` · `Design tokens` · `UX` · `a11y`
+
+### [Roblox-Monitoring-Final](https://github.com/JackUCS/Roblox-Monitoring-Final) — automated monitor & alerter
+Python service polling game servers via `aiohttp`, persisting state to MySQL, and
+pushing webhook alerts. Deployed on Railway with environment-based config.
+
+`Python` · `aiohttp` · `MySQL` · `Railway`
+
+### [PublicInterface](https://github.com/JackUCS/PublicInterface) — Discord slash-command bot
+Command interface over a MySQL backend — users register webhook endpoints and the bot
+routes alerts to them, with slash-command sync on startup.
+
+`Python` · `discord.py` · `MySQL` · `Railway`
+
 
 
 ---
