@@ -69,11 +69,11 @@ that plant realistic but entirely benign attacks:
 | # | Scenario | Category | Points |
 |---|----------|----------|--------|
 | 1 | C2 Beacon Detection | Network Forensics | 200 |
-| 2 | DNS Tunnelling Detection | Network Forensics | 250 |
-| 3 | File Integrity Violation | Host Forensics | 200 |
+| 2 | DNS Tunnelling Detection | Network Forensics | 200 |
+| 3 | File Integrity Violation | Host Forensics | 250 |
 | 4 | Web Server Compromise | Host Forensics | 300 |
 | 5 | Lateral Movement / Pivot | Network Forensics | 300 |
-| 6 | Insider Data Exfiltration | Incident Response | 250 |
+| 6 | Insider Data Exfiltration | Incident Response | 400 |
 
 Each scenario releases a **CTFd-compatible flag only when the objective is
  met** the typical flow is "identify *and* contain", not just spot it.
