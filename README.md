@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%" />
+<img src="assets/banner.svg" alt="Jack Jeffery — full-stack developer" width="100%"/>
 
 I build systems end to end from the database schema, to the API, the frontend, and the deploy.
 Recent work spans a **local-services booking platform**, **lnkd.lol** in production,
-Discord automation, and a self-contained defensive-security cyber range.
+Discord automation, and a self-contained defensive-security cyber range. 
+All images are not necessarily representative of the current nature of the project as they have been converted to SVG's with AI
 
 </div>
 
